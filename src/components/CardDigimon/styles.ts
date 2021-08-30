@@ -6,13 +6,13 @@ export const Container = styled.div`
   background-color: rgb(98, 98, 98);
   border: 0.5px solid #ddd;
   border-radius: 20px;
-  font-size: 10px;
+  font-size: 18px;
   color: rgb(231, 231, 231);
 `;
 
 export const Image = styled.img`
-  width: 30px;
-  height: 30px;
-  border-radius: 30px;
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
   object-fit: cover;
 `;

@@ -6,9 +6,9 @@ interface IButtonStyledProps {
 
 export const ButtonStyled = styled.button<IButtonStyledProps>`
   margin-top: 5px;
-  width: 28px;
-  font-size: 6px;
-  height: 12px;
+  width: 80px;
+  font-size: 18px;
+  height: 20px;
   border: none;
   border-radius: 10px;
   background-color: deepskyblue;
@@ -20,7 +20,7 @@ export const ButtonStyled = styled.button<IButtonStyledProps>`
     css`
       background: white;
       color: red;
-      width: 42px;
+      width: 95px;
       display: flex;
       justify-content: center;
       align-items: center;
